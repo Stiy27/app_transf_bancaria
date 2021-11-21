@@ -1,0 +1,16 @@
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\app_transf_bancaria.exe
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\app_transf_bancaria.deps.json
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\app_transf_bancaria.runtimeconfig.json
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\app_transf_bancaria.runtimeconfig.dev.json
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\app_transf_bancaria.dll
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\ref\app_transf_bancaria.dll
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\bin\Debug\net5.0\app_transf_bancaria.pdb
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.csproj.AssemblyReference.cache
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.AssemblyInfoInputs.cache
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.AssemblyInfo.cs
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.csproj.CoreCompileInputs.cache
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.dll
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\ref\app_transf_bancaria.dll
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.pdb
+D:\Aulas\Aulas_C#\DotNet\app_transf_bancaria\obj\Debug\net5.0\app_transf_bancaria.genruntimeconfig.cache
