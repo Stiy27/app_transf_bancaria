@@ -25,10 +25,18 @@ namespace app_transf_bancaria
                 Console.WriteLine("Saldo insufuciente!");
                 return false;
             }
+            else if (valorSaque > this.Saldo)
+            {
+                if (this.Saldo <= 0 && this.Credito >= valorSaque)
+                {
+                    this.Credito -= valorSaque;
+                }
+            }
 
             this.Saldo -= valorSaque;
-            Console.WriteLine("Saque realizado com sucesso!\nSaldo atual da ",
-                              "conta {0} é {1}", this.Nome, this.Saldo);
+            Console.WriteLine("\nSaque realizado com sucesso!\n");
+            Console.WriteLine("Saldo atual de {0} é R$ {1}", this.Nome, this.Saldo);
+            Console.WriteLine("Seu saldo de crédito é R$ {0}\n", this.Credito);
             return true;
         }
 
@@ -36,7 +44,7 @@ namespace app_transf_bancaria
         {
             this.Saldo += valorDeposito;
 
-            Console.WriteLine("Saldo atual da conta {0} é {1}", this.Nome, this.Saldo);
+            Console.WriteLine("Saldo atual de {0} é R$ {1}", this.Nome, this.Saldo);
         }
 
         public void Transferir(double valorTransferencia, Conta contaDestino)
@@ -44,6 +52,9 @@ namespace app_transf_bancaria
             if (this.Sacar(valorTransferencia))
             {
                 contaDestino.Depositar(valorTransferencia);
+
+                Console.WriteLine("\nTransferência realizda com sucesso!");
+                Console.WriteLine("***********************************\n");
             }
         }
 
@@ -51,10 +62,10 @@ namespace app_transf_bancaria
         public override string ToString()
         {   //Este médoto sobrescreve o método nativo - override, retorna string
             string retorno = "";
-            retorno += "Tipoconta " + this.TipoConta + " | ";
-            retorno += "Nome " + this.Nome + " | ";
-            retorno += "Saldo " + this.Saldo + " | ";
-            retorno += "Credito " + this.Credito + " | ";
+            retorno += "TipoConta: " + this.TipoConta + " | ";
+            retorno += "Nome: " + this.Nome + " | ";
+            retorno += "Saldo: " + this.Saldo + " | ";
+            retorno += "Credito: " + this.Credito + " | ";
             return retorno;
         }
     }
